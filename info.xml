@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">TABLE_NAME</Data></Cell>
+			<Cell><Data ss:Type="String">COLUMN_NAME</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">customerNumber</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">customerName</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">contactLastName</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">contactFirstName</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">phone</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">addressLine1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">addressLine2</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">city</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">state</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">postalCode</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">country</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">salesRepEmployeeNumber</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">customers</Data></Cell>
+			<Cell><Data ss:Type="String">creditLimit</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">employees</Data></Cell>
+			<Cell><Data ss:Type="String">employeeNumber</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">employees</Data></Cell>
+			<Cell><Data ss:Type="String">lastName</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">employees</Data></Cell>
+			<Cell><Data ss:Type="String">firstName</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">employees</Data></Cell>
+			<Cell><Data ss:Type="String">extension</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">employees</Data></Cell>
+			<Cell><Data ss:Type="String">email</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">employees</Data></Cell>
+			<Cell><Data ss:Type="String">officeCode</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">employees</Data></Cell>
+			<Cell><Data ss:Type="String">reportsTo</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">employees</Data></Cell>
+			<Cell><Data ss:Type="String">jobTitle</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">offices</Data></Cell>
+			<Cell><Data ss:Type="String">officeCode</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">offices</Data></Cell>
+			<Cell><Data ss:Type="String">city</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">offices</Data></Cell>
+			<Cell><Data ss:Type="String">phone</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">offices</Data></Cell>
+			<Cell><Data ss:Type="String">addressLine1</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">offices</Data></Cell>
+			<Cell><Data ss:Type="String">addressLine2</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">offices</Data></Cell>
+			<Cell><Data ss:Type="String">state</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">offices</Data></Cell>
+			<Cell><Data ss:Type="String">country</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">offices</Data></Cell>
+			<Cell><Data ss:Type="String">postalCode</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">offices</Data></Cell>
+			<Cell><Data ss:Type="String">territory</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orderdetails</Data></Cell>
+			<Cell><Data ss:Type="String">orderNumber</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orderdetails</Data></Cell>
+			<Cell><Data ss:Type="String">productCode</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orderdetails</Data></Cell>
+			<Cell><Data ss:Type="String">quantityOrdered</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orderdetails</Data></Cell>
+			<Cell><Data ss:Type="String">priceEach</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orderdetails</Data></Cell>
+			<Cell><Data ss:Type="String">orderLineNumber</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orders</Data></Cell>
+			<Cell><Data ss:Type="String">orderNumber</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orders</Data></Cell>
+			<Cell><Data ss:Type="String">orderDate</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orders</Data></Cell>
+			<Cell><Data ss:Type="String">requiredDate</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orders</Data></Cell>
+			<Cell><Data ss:Type="String">shippedDate</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orders</Data></Cell>
+			<Cell><Data ss:Type="String">status</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orders</Data></Cell>
+			<Cell><Data ss:Type="String">comments</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">orders</Data></Cell>
+			<Cell><Data ss:Type="String">customerNumber</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">payments</Data></Cell>
+			<Cell><Data ss:Type="String">customerNumber</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">payments</Data></Cell>
+			<Cell><Data ss:Type="String">checkNumber</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">payments</Data></Cell>
+			<Cell><Data ss:Type="String">paymentDate</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">payments</Data></Cell>
+			<Cell><Data ss:Type="String">amount</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">productlines</Data></Cell>
+			<Cell><Data ss:Type="String">productLine</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">productlines</Data></Cell>
+			<Cell><Data ss:Type="String">textDescription</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">productlines</Data></Cell>
+			<Cell><Data ss:Type="String">htmlDescription</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">productlines</Data></Cell>
+			<Cell><Data ss:Type="String">image</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">products</Data></Cell>
+			<Cell><Data ss:Type="String">productCode</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">products</Data></Cell>
+			<Cell><Data ss:Type="String">productName</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">products</Data></Cell>
+			<Cell><Data ss:Type="String">productLine</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">products</Data></Cell>
+			<Cell><Data ss:Type="String">productScale</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">products</Data></Cell>
+			<Cell><Data ss:Type="String">productVendor</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">products</Data></Cell>
+			<Cell><Data ss:Type="String">productDescription</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">products</Data></Cell>
+			<Cell><Data ss:Type="String">quantityInStock</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">products</Data></Cell>
+			<Cell><Data ss:Type="String">buyPrice</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="String">products</Data></Cell>
+			<Cell><Data ss:Type="String">MSRP</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
