@@ -1,0 +1,10 @@
+langchain_community
+langchain
+pymysql
+chromadb
+streamlit
+google-generativeai
+langchain-ollama
+langchain_core
+langgraph
+sqlalchemy
