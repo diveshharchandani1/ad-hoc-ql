@@ -109,7 +109,3 @@ Contributions are welcome! Please follow these steps:
 
 
 
-# ad-hoc-ql
-# ad-hoc-ql
-# ad-hoc-ql
-# ad-hoc-ql
