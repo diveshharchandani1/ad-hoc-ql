@@ -71,12 +71,17 @@ Example question:
 
 ```mermaid
 graph TD
-    A[User Question] --> B(Streamlit Interface)
-    B --> C{LLM Processing}
-    C --> D[SQL Generation]
-    D --> E[Query Correction]
-    E --> F[Database Execution]
-    F --> G[Result Visualization]
+    A[DB Connection] --> B[(Context Preparation)]
+    B --> C{Selected Tables}
+    C --> D[Schema Info \n(db.getinfo)]
+    D --> E[Table Relations \n(SQLAlchemy)]
+    E --> F[LLM Prompt Context]
+    F --> G[User Question]
+    G --> H{LLM Processing}
+    H --> I[SQL Generation]
+    I --> J[Query Correction]
+    J --> K[Database Execution]
+    K --> L[Result Visualization]
 ```
 
 ## Configuration ⚙️
