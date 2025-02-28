@@ -71,7 +71,7 @@ Example question:
 
 ```mermaid
 graph TD;
-    A[DB Connection] --> B[Feed Context: Table Selection, LLM Prompt, DB.getInfo, Relations (SQLAlchemy)];
+    A[DB Connection] --> B[Feed Context: Table Selection, LLM Prompt, DB.getInfo, Relations with SQLAlchemy];
     B --> C[Query Input];
     C --> D[SQL Query Generation];
     D --> E[Query Correction using Prompt];
@@ -85,6 +85,7 @@ graph TD;
     style E fill:#f96,stroke:#333,stroke-width:2px;
     style F fill:#f69,stroke:#333,stroke-width:2px;
     style G fill:#9f6,stroke:#333,stroke-width:2px;
+
 ```
 
 
