@@ -69,19 +69,22 @@ Example question:
 
 ## Architecture 🏗️
 
-```mermaid
-graph TD
-    A[DB Connection] --> B[(Context Preparation)]
-    B --> C{Selected Tables}
-    C --> D[Schema Info<br>(db.getinfo)]
-    D --> E[Table Relations<br>(SQLAlchemy)]
-    E --> F[LLM Prompt Context]
-    F --> G[User Question]
-    G --> H{LLM Processing}
-    H --> I[SQL Generation]
-    I --> J[Query Correction]
-    J --> K[Database Execution]
-    K --> L[Result Visualization]
+```graph TD;
+    A[DB Connection] --> B[Feed Context: Table Selection, LLM Prompt, DB.getInfo, Relations (SQLAlchemy)];
+    B --> C[Query Input];
+    C --> D[SQL Query Generation];
+    D --> E[Query Correction using Prompt];
+    E --> F[Database Execution];
+    F --> G[Result];
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px;
+    style B fill:#ff9,stroke:#333,stroke-width:2px;
+    style C fill:#9ff,stroke:#333,stroke-width:2px;
+    style D fill:#6f9,stroke:#333,stroke-width:2px;
+    style E fill:#f96,stroke:#333,stroke-width:2px;
+    style F fill:#f69,stroke:#333,stroke-width:2px;
+    style G fill:#9f6,stroke:#333,stroke-width:2px;
+
 ```
 
 ## Configuration ⚙️
