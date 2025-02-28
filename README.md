@@ -69,7 +69,8 @@ Example question:
 
 ## Architecture 🏗️
 
-```graph TD;
+```mermaid
+graph TD;
     A[DB Connection] --> B[Feed Context: Table Selection, LLM Prompt, DB.getInfo, Relations (SQLAlchemy)];
     B --> C[Query Input];
     C --> D[SQL Query Generation];
@@ -84,8 +85,8 @@ Example question:
     style E fill:#f96,stroke:#333,stroke-width:2px;
     style F fill:#f69,stroke:#333,stroke-width:2px;
     style G fill:#9f6,stroke:#333,stroke-width:2px;
-
 ```
+
 
 ## Configuration ⚙️
 
