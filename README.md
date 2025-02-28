@@ -69,7 +69,7 @@ Example question:
 
 ## Architecture 🏗️
 
-![Architecture Diagram](./arch.png)
+![Architecture Diagram](./arch1.png)
 
 
 
