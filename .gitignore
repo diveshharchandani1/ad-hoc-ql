@@ -8,3 +8,4 @@ __pycache__
 .streamlit/secrets.toml.local.example
 .env 
 chroma_db
+.DS_Store
