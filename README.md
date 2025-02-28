@@ -69,24 +69,8 @@ Example question:
 
 ## Architecture 🏗️
 
-```mermaid
-graph TD;
-    A[DB Connection] --> B[Feed Context: Table Selection, LLM Prompt, DB.getInfo, Relations with SQLAlchemy];
-    B --> C[Query Input];
-    C --> D[SQL Query Generation];
-    D --> E[Query Correction using Prompt];
-    E --> F[Database Execution];
-    F --> G[Result];
+![Architecture Diagram](./arch.png)
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px;
-    style B fill:#ff9,stroke:#333,stroke-width:2px;
-    style C fill:#9ff,stroke:#333,stroke-width:2px;
-    style D fill:#6f9,stroke:#333,stroke-width:2px;
-    style E fill:#f96,stroke:#333,stroke-width:2px;
-    style F fill:#f69,stroke:#333,stroke-width:2px;
-    style G fill:#9f6,stroke:#333,stroke-width:2px;
-
-```
 
 
 ## Configuration ⚙️
