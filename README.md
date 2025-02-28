@@ -73,8 +73,8 @@ Example question:
 graph TD
     A[DB Connection] --> B[(Context Preparation)]
     B --> C{Selected Tables}
-    C --> D[Schema Info \n(db.getinfo)]
-    D --> E[Table Relations \n(SQLAlchemy)]
+    C --> D[Schema Info<br>(db.getinfo)]
+    D --> E[Table Relations<br>(SQLAlchemy)]
     E --> F[LLM Prompt Context]
     F --> G[User Question]
     G --> H{LLM Processing}
