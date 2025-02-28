@@ -1,4 +1,4 @@
-# AD-HOC-QL: Natural Language to SQL Converter
+# AD-HOC-QL: Natural Language to SQL
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-00ADD8?style=for-the-badge)
